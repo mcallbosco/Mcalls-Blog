@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Random Crap That Might be Helpful?</description>
-	<lastBuildDate>Mon, 29 Nov 2021 12:24:41 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 29 Nov 2021 13:01:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,22 +20,19 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.8.2</generator>
 	<item>
-		<title>Hello world!</title>
+		<title>This is a quick hack job of a site</title>
 		<link>./../../../2021/11/29/hello-world/index.html</link>
-					<comments>./../../../2021/11/29/hello-world/index.html#comments</comments>
 		
 		<dc:creator><![CDATA[mcallbosco]]></dc:creator>
 		<pubDate>Mon, 29 Nov 2021 12:24:41 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../../../index.html?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+					<description><![CDATA[Will I ever make it good? Probably not. I just want to write stuff here that I think may be useful for myself and maybe even others.]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Will I ever make it good? Probably not. I just want to write stuff here that I think may be useful for myself and maybe even others.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../../../2021/11/29/hello-world/feed/index.html</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
