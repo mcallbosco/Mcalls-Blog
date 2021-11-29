@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Uncategorized &#8211; Mcall&#039;s Blog</title>
+	<title>Tutorial &#8211; Mcall&#039;s Blog</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Random Crap That Might be Helpful?</description>
@@ -63,98 +63,6 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You should be all set to start building after this by using the MASM Linux build task. It should also work on Macs.</p>
 <p>The post <a rel="nofollow" href="./../../../2021/11/29/adding-a-masm32-build-task-to-vscode-on-all-platforms/index.html">Adding A MASM32 Build Task to VS:CODE  On All Platforms</a> appeared first on <a rel="nofollow" href="./../../../index.html">Mcall&#039;s Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Installing Any Android App Onto the Activo CT10</title>
-		<link>./../../../2021/11/29/installing-any-android-app-onto-the-activo-ct10/index.html</link>
-		
-		<dc:creator><![CDATA[mcallbosco]]></dc:creator>
-		<pubDate>Mon, 29 Nov 2021 20:25:50 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=36</guid>
-
-					<description><![CDATA[<p>*Thanks to reddit user afunkysongaday for helping me figure this out* If you are here, you’ve probably noticed that the CT10’s Android limits you with what you can do. You can only install certain APKs. That’s boring though. What about if you use Youtube Music or have a Music player you like? Not to mention&#8230; <a class="more-link" href="./../../../2021/11/29/installing-any-android-app-onto-the-activo-ct10/index.html">Continue reading <span class="screen-reader-text">Installing Any Android App Onto the Activo CT10</span></a></p>
-<p>The post <a rel="nofollow" href="./../../../2021/11/29/installing-any-android-app-onto-the-activo-ct10/index.html">Installing Any Android App Onto the Activo CT10</a> appeared first on <a rel="nofollow" href="./../../../index.html">Mcall&#039;s Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>*Thanks to reddit user <a href="https://www.reddit.com/user/afunkysongaday/">afunkysongaday</a> for helping me figure this out*</p>
-
-
-
-<p>If you are here, you’ve probably noticed that the CT10’s Android limits you with what you can do. You can only install certain APKs. That’s boring though. What about if you use Youtube Music or have a Music player you like? Not to mention you may want to customize it some more. Well, this is a guide on how to install 3<sup>rd</sup> party apps.</p>
-
-
-
-<p>Prerequisites</p>
-
-
-
-<p>You Need</p>
-
-
-
-<ul><li>A computer with ADB on it</li><li>The APK files you want to install</li><li>A cable so you can hook up your CT10 to the computer.</li><li><a href="https://github.com/mcallbosco/Mcalls-Archive/raw/main/Activo%20CT10/term_CT10.apk" target="_blank" rel="noreferrer noopener">THIS APK FILE (CLICK THIS LINK)</a> “term_CT10.apk”</li></ul>
-
-
-
-<p>Lets get started.</p>
-
-
-
-<ul><li>Plug in the CT10 to your computer and go to it’s internal storage. Navigate to the OpenService folder or make on if it isn’t there. Put “term_CT10.apk” into this folder.</li><li>On the CT10 go to the home screen and press the services button. You should see the Terminal application available to install. Install it.</li><li>Open the terminal application. Enter these 3 commands highlighted in white</li></ul>
-
-
-
-<p class="has-white-background-color has-background">setprop persist.service.adb.enable 1</p>
-
-
-
-<p class="has-white-background-color has-background">setprop persist.service.debuggable 1</p>
-
-
-
-<p class="has-white-background-color has-background">setprop persist.sys.usb.config mtp,adb</p>
-
-
-
-<ul><li>Reboot your device and you should be all set. You have to use a computer to install the apps. Do this by using the command</li></ul>
-
-
-
-<p class="has-white-background-color has-background">abd install /path/to/apk</p>
-
-
-
-<p>…and you should be all set to install whatever you want onto your Activo CT10. Pretty simple right? There are the basic limitations though. Make sure your app is compatible with Android 5. Notifications work but are a bit of a pain to manage with the stock interface. Launchers work just fine (I use Nova 6.2.3). If you open the stock Activo music app it can mess with your background a bit (there may be a setting to disable this, but I have not looked too hard.)</p>
-
-
-
-<p>Well, that’s it for my first write-up. I hope this proved useful to some people.</p>
-<p>The post <a rel="nofollow" href="./../../../2021/11/29/installing-any-android-app-onto-the-activo-ct10/index.html">Installing Any Android App Onto the Activo CT10</a> appeared first on <a rel="nofollow" href="./../../../index.html">Mcall&#039;s Blog</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>This is a quick hack job of a site</title>
-		<link>./../../../2021/11/29/hello-world/index.html</link>
-		
-		<dc:creator><![CDATA[mcallbosco]]></dc:creator>
-		<pubDate>Mon, 29 Nov 2021 12:24:41 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
-
-					<description><![CDATA[<p>Will I ever make it good? Probably not. I just want to write stuff here that I think may be useful for myself and maybe even others.</p>
-<p>The post <a rel="nofollow" href="./../../../2021/11/29/hello-world/index.html">This is a quick hack job of a site</a> appeared first on <a rel="nofollow" href="./../../../index.html">Mcall&#039;s Blog</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p>Will I ever make it good? Probably not. I just want to write stuff here that I think may be useful for myself and maybe even others.</p>
-<p>The post <a rel="nofollow" href="./../../../2021/11/29/hello-world/index.html">This is a quick hack job of a site</a> appeared first on <a rel="nofollow" href="./../../../index.html">Mcall&#039;s Blog</a>.</p>
 ]]></content:encoded>
 					
 		

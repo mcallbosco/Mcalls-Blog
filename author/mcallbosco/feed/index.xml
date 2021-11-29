@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Random Crap That Might be Helpful?</description>
-	<lastBuildDate>Mon, 29 Nov 2021 20:25:50 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 29 Nov 2021 23:28:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,52 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.8.2</generator>
 	<item>
+		<title>Adding A MASM32 Build Task to VS:CODE  On All Platforms</title>
+		<link>./../../../2021/11/29/adding-a-masm32-build-task-to-vscode-on-all-platforms/index.html</link>
+		
+		<dc:creator><![CDATA[mcallbosco]]></dc:creator>
+		<pubDate>Mon, 29 Nov 2021 23:28:16 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Tutorial]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=39</guid>
+
+					<description><![CDATA[If you are like me, you are probably a computer science student who is forced to take an assembly class but has no interest in installing Visual Studio and all the crap that comes with just to use it for a few months. Or maybe you just like to use something else than windows. So,&#8230; <a class="more-link" href="./../../../2021/11/29/adding-a-masm32-build-task-to-vscode-on-all-platforms/index.html">Continue reading <span class="screen-reader-text">Adding A MASM32 Build Task to VS:CODE  On All Platforms</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>If you are like me, you are probably a computer science student who is forced to take an assembly class but has no interest in installing Visual Studio and all the crap that comes with just to use it for a few months. Or maybe you just like to use something else than windows. So, I am sharing some Visual Studio Code tasks to make life easier. These are made to use the IRVINE libraries but feel free to modify them however you would like. If any of the files you need to download goes down, I have a backup in the repository containing this document. <a rel="noreferrer noopener" href="https://github.com/mcallbosco/Mcalls-Archive/tree/main/MASM32%20Build%20Task%20VSCODE" target="_blank">Here&#8217;s a link to it. </a>You can download the Build Task file using <a rel="noreferrer noopener" href="https://raw.githubusercontent.com/mcallbosco/Mcalls-Archive/main/MASM32%20Build%20Task%20VSCODE/tasks.json" target="_blank">THIS LINK.</a></p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I will be referring to <a href="https://reberhardt.com/blog/programming/2016/01/30/masm-on-mac-or-linux.html">THIS</a> article by <a href="https://reberhardt.com/blog/">Ryan Eberhardt</a> (If this link doesn’t work there’s a backup in the repo)</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WINDOWS</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Install MASM32 by downloading the installer from <a href="http://www.masm32.com/">http://www.masm32.com/</a> and then download the Irvine library from “<a href="http://asmirvine.com/">Assembly Language for x86 Processors, 8/e (asmirvine.com)</a>” (Click on the VS 2019 setup and then you will find the download link). Extract the Irvine.zip onto your C: drive and then rename the irvine folder to have a capital I.</p>
+
+
+
+<p>                Once you have done that, follow the instructions in the article about setting up your environment variables. When you are finished, the MASM build task is ready to use!</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LINUX……… and MAC(Probably?)</p>
+
+
+
+<p>                Follow the instructions in the article (including adding the script at the end to your bash_profile). The WGET links are down but you can find the files by going to <a href="http://www.masm32.com/">http://www.masm32.com/</a> and &#8220;<a href="http://asmirvine.com/">Assembly Language for x86 Processors, 8/e (asmirvine.com)</a>” (Click on the VS 2019 setup and then you will find the download link) and do the stuff required manually.</p>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You should be all set to start building after this by using the MASM Linux build task. It should also work on Macs.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Installing Any Android App Onto the Activo CT10</title>
 		<link>./../../../2021/11/29/installing-any-android-app-onto-the-activo-ct10/index.html</link>
 		
